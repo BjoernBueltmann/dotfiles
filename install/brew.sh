@@ -16,6 +16,7 @@ brew install wget
 #brew install nginx
 #brew install dnsmasq
 
+echo "Installing tools packages..."
 # development tools
 brew install git
 brew install git-flow
@@ -31,6 +32,29 @@ brew install markdown
 brew install midnight-commander
 
 brew install vim
+
+brew update && brew cleanup
+
+# install productivity software for 5Minds
+echo "Installing application packages..."
+brew cask install microsoft-office
+brew cask install google-chrome
+brew cask install chrome-devtools
+brew cask install sublime-text
+brew cask install firefox-de
+brew cask install slack
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install gpgtools
+brew install homebrew/dupes/openssh
+brew cask install iterm2
+brew install zsh
+brew cask install alfred
+brew cask install caffeine
+brew cask install vmware-fusion
+brew cask install pgadmin3
+brew cask install sourcetree
+brew cask install teamviewer
 
 # install neovim
 brew install neovim/neovim/neovim
