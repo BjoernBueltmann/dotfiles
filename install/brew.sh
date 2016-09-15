@@ -31,6 +31,7 @@ brew install markdown
 brew install midnight-commander
 brew install neovim/neovim/neovim
 brew install vim
+brew install node
 
 brew cleanup
 
@@ -64,3 +65,9 @@ brew install zsh-completions
 brew cask install caffeine
 brew cask install slack
 brew cask install iterm2
+
+# NVM Installation
+
+echo "export NVM_DIR=\"$HOME/.nvm\"" > ~/.bash_profile
+echo ". \"$(brew --prefix nvm)/nvm.sh\"" >> ~/.bash_profile
+source ~/.bash_profile
